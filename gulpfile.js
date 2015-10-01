@@ -28,7 +28,7 @@ gulp.task('javascript', function () {
     entries: './app/js/app.js',
     debug: true
   });
-  b.ignore('jquery');
+  //b.ignore('jquery');
 
   return b.bundle()
     .pipe(source('./app/js/app.js'))
